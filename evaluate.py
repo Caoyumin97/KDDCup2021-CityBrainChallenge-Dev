@@ -258,7 +258,7 @@ def run_simulation(agent_spec, simulator_cfg_file, gym_cfg):
     env = gym.make(
         'CBEngine-v0',
         simulator_cfg_file=simulator_cfg_file,
-        thread_num=1,
+        thread_num=2,
         gym_dict = gym_configs
     )
     scenario = [
